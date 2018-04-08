@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myapplication.app1.gamezone.Screen1"
+    android:background="#000000">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Anagram"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="42dp"
+        android:id="@+id/Anagram"
+        android:background="#000000"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Anagram"
+        android:id="@+id/Wstack"
+        android:background="#000000"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:text="Word Stack"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="42dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ghost"
+        android:background="#000000"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:text="Ghost Word"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="42dp"
+        android:layout_below="@+id/Wstack"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#000000"
+        android:text="Back"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:id="@+id/Back"/>
+</RelativeLayout>

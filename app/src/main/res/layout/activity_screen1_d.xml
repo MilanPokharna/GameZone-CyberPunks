@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myapplication.app1.gamezone.Screen1D"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Single Player"
+        android:textSize="44dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:layout_marginTop="20dp"
+        android:id="@+id/Splay"/>
+
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="   single Dice   "
+        android:background="@drawable/button"
+        android:textColor="#000000"
+        android:layout_below="@+id/Splay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:id="@+id/Splayeasy"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="   Dual Dice   "
+        android:textColor="#000000"
+        android:layout_below="@+id/Splayeasy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="24dp"
+        android:background="@drawable/button"
+        android:textStyle="bold"
+        android:id="@+id/Splaymod"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Two Player"
+        android:textSize="44dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:layout_marginTop="40dp"
+        android:id="@+id/Mulplay"
+        android:layout_below="@+id/Splaymod"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="   Single dice   "
+        android:textColor="#000000"
+        android:layout_below="@+id/Mulplay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="24dp"
+        android:background="@drawable/button"
+        android:textStyle="bold"
+        android:id="@+id/Mplayeasy"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="dual dice"
+        android:background="@drawable/button"
+
+        android:textColor="#000000"
+        android:layout_below="@+id/Mplayeasy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:id="@+id/Mplaymod"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#000000"
+        android:text="Back"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:id="@+id/Back1"/>
+
+
+</RelativeLayout>

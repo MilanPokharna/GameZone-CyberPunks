@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myapplication.app1.gamezone.MainScreen"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Zone"
+        android:textStyle="bold"
+        android:textSize="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:id="@+id/GameZone"
+        android:textColor="#ff0000"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonWord"
+        android:text="Word Games"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="128dp"
+        android:textColor="#000000"
+        android:background="@drawable/mybutton"
+        android:layout_below="@+id/GameZone"
+        android:layout_alignLeft="@+id/ButtonDice"
+        android:layout_alignStart="@+id/ButtonDice" />
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonDice"
+        android:text="Dice Games"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/ButtonWord"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:background="@drawable/mybutton"/>
+</RelativeLayout>
