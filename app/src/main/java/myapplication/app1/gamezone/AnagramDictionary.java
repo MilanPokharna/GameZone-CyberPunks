@@ -36,11 +36,9 @@ class AnagramDictionary {
         while((line = in.readLine()) != null) {
             String word = line.trim(); //removes the unwanted spaces
 
-            // add to the ArrayList Data Structure
             wordList.add(word);
 
-            //add the same word to a hashSet and hashMap
-            wordSet.add(word);
+             wordSet.add(word);
 
             String sortedWord = sortLetters(word);
 
