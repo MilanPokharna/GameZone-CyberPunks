@@ -39,11 +39,7 @@ public class GhostScreen extends AppCompatActivity {
             toast = Toast.makeText(this ,"Dictionary not Loaded",Toast.LENGTH_SHORT);
             toast.show();
         }
-        /**
-         **
-         **  YOUR CODE GOES HERE
-         **
-         **/
+      
         onStart(null);
     }
 
@@ -136,8 +132,7 @@ public class GhostScreen extends AppCompatActivity {
                 flag=2;
             }
         }
-        // Do computer turn stuff then make it the user's turn again
-    }
+        }
 
 
     @Override
